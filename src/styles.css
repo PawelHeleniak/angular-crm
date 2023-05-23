@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --border: hsl(0, 0%, 26%);
+  --primary: hsl(202, 100%, 42%);
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  font-size: 16px;
+}
+input{
+  font-size: 1rem;
+  padding: 5px;
+  border: 1px solid var(--border);
+}
+button{
+  font-size: 1rem;
+}
